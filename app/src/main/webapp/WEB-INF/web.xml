@@ -1,0 +1,22 @@
+<web-app>
+    <servlet>
+        <servlet-name>send-sms</servlet-name>
+        <servlet-class>sms.webservice.SendSMSServlet</servlet-class>
+        <init-param>
+            <param-name>from_number</param-name>
+            <param-value>VONAGE_BRAND_NAME</param-value>
+        </init-param>
+        <init-param>
+            <param-name>api_key</param-name>
+            <param-value>VONAGE_API_KEY</param-value>
+        </init-param>
+        <init-param>
+            <param-name>api_secret</param-name>
+            <param-value>VONAGE_API_SECRET</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>send-sms</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+</web-app>
