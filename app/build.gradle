@@ -26,7 +26,7 @@ dependencies {
     implementation 'com.google.guava:guava:30.1-jre'
 
     // Install the Vonage Java SDK
-    implementation 'com.vonage:client:6.4.0'
+    implementation 'com.vonage:client:6.5.0'
 
 }
 
